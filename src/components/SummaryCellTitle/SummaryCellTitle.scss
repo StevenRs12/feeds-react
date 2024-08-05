@@ -1,0 +1,12 @@
+.product-detail {
+  .product-title {
+    text-transform: capitalize;
+  }
+
+  .product-price {
+    font-size: 16px;
+    color: var(--green);
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,29 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.summary-cell-feed-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 264px;
+}
+
+.summary-cell-feed-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-info {
+  flex-grow: 1;
+  text-transform: capitalize;
+}
+
+.image-slider {
+  width: 100%;
+
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+}
